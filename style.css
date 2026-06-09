@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkblue;
+  color: aliceblue;
+
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.header-left a {
+  color: aliceblue;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.header-right .cv {
+  height: 120px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.portfoy_alani {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.kart {
+  width: 48%;
+  border: 2px solid lightslategray;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.kart:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 6px 15px lightskyblue;
+}
+
+.foto {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.iletisim {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+
+  margin-top: 0px;
+}
+
+.eleman {
+  display: flex;
+  position: relative;
+  padding: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkblue;
+
+  bottom: 0;
+  margin-top: 50px;
+}
+
+.footer a {
+  color: white;
+  padding: 8px;
+  border: 3px solid silver;
+  border-radius: 45px;
+  margin: 5px;
+  font-size: smaller;
+}
